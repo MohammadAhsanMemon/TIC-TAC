@@ -1,0 +1,41 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 700px;
+  min-height: 500px;
+  border-radius: 5%;
+  /* margin: auto; */
+  flex-wrap: wrap;
+}
+
+table {
+  margin: auto;
+  box-shadow: -6px -6px  10px;
+  flex-wrap: wrap;
+
+}
+
+td {
+  background-color: rgb(184, 162, 115);
+  font-size: 80px;
+  flex-wrap: wrap;
+
+}
+
+#player {
+  padding: 1rem;
+}
+
+body,html{
+  margin-left: 12em;
+  margin-top: 5em;
+  margin-right: 12em;
+  background-color: black;
+  flex-wrap: wrap;
+}
+
+.container{
+  background-image: url(../tic\ wallpaper.jpg);
+}
